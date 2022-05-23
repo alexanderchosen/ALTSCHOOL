@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    
+    <section class="flexbox-nav">
+        <div> <a href="index.html"> Home </a></div>
+        <div> <a href="contact.html"> Contact</a></div>
+        <div> <a href="register.html"> Register </a> </div>
+        <div> <a href="login.html"> Login</a></div>
+        <div> <a href="calculator.html"> Calculator</a></div>
+
+    </section>
+
+    <form>
+        <fieldset>
+          <legend style="color: blue;"> <b> Contact information</b></legend>
+          <label for="Name">Name:</label><br>
+          <input type="text"
+           name="Name"
+           id="name"
+            required /><br>
+          
+            <p> </p>
+          <label for="Email">Email:</label><br>
+          <input type = "email"
+           name="Email"
+           id="email"
+            required />
+            <br>
+            <p> </p>
+
+          <label for="Message">Message:</label><br>
+          <textarea name="Message"> </textarea><br>
+
+          <p> </p>
+        
+          <label for="Priority">Priority:</label><br>
+          <select id="Priority" name="Priority" required>
+            <option value="High"> High </option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+          </select>
+
+          <br>
+          <p> </p>
+    
+          <input type="submit">
+        </fieldset>
+      </form>
+
+</body>
+</html>
+

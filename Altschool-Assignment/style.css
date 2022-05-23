@@ -1,0 +1,43 @@
+.flexbox-nav{
+    display: flex;
+    background-image: url("/media/me.jpg");
+    max-width: 100%;
+    background-size: contain;
+    /* background-attachment: fixed; */
+    height: 350px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 80px;
+    flex-flow: row ;
+    
+    
+
+}
+
+div{
+    background-color: whitesmoke;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 1px;
+    
+    
+
+}
+
+
+a:hover{
+    color: rgb(179, 88, 14);
+   
+}
+
+label{
+    font-weight: bold;
+}
+
+input:hover{
+    color:rgb(179, 88, 14);
+    background-color: black;
+    
+}
